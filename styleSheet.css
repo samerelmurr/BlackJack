@@ -1,0 +1,42 @@
+.container{
+
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid;
+
+}
+
+.playArea, .controls, .scoreTable{
+
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.playArea, .controls{
+
+    background-image: url('https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg');
+    color: #ffffff;
+
+}
+
+.playArea div{
+
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+    flex: 1;
+
+}
+
+.scoreTable th, td{
+  
+    padding: 5px;
+    border: 1px solid;
+
+}
